@@ -6,7 +6,7 @@ const AppRoutes = () =>{
     return(
     <BrowserRouter>
         <Routes>
-            <Route exact path="/" element={<MainPage/>}/>
+            <Route exact path="/<ContresAPIGithubPages>" element={<MainPage/>}/>
             <Route exact path="/post/:name" element={<ContryPage/>}/>
         </Routes>
     </BrowserRouter>
