@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 const AppRoutes = () =>{
     return(
-    <BrowserRouter basename='/ContresAPIGithubPages'>
+    <BrowserRouter basename='/Co'>
         <Routes>
             <Route exact path="/" element={<MainPage/>}/>
             <Route exact path="/post/:name" element={<ContryPage/>}/>
