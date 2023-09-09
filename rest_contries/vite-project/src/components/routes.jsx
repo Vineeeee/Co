@@ -4,9 +4,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 const AppRoutes = () =>{
     return(
-    <BrowserRouter>
+    <BrowserRouter basename='/ContresAPIGithubPages'>
         <Routes>
-            <Route exact path="/<ContresAPIGithubPages>" element={<MainPage/>}/>
+            <Route exact path="/" element={<MainPage/>}/>
             <Route exact path="/post/:name" element={<ContryPage/>}/>
         </Routes>
     </BrowserRouter>
