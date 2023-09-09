@@ -1,0 +1,16 @@
+
+@font-face {
+  font-family: "MainFont";
+  src: url("./font/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf");
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+}
+
